@@ -1,0 +1,54 @@
+.vertCard {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  width: 25%;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+
+}
+.VuserPic {
+  height: 300px;
+  width: 100%;
+  border: none;
+  padding: 0;  
+}
+
+.VuserPic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: fill;
+}
+
+.VcardContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.usrName {
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+#Vcontact {
+  display: flex;
+  flex-direction: row;
+}
+
+.VcardContent span {
+  margin-right: 10px;
+  justify-content: center;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+
+
+

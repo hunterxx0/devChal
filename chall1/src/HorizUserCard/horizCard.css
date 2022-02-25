@@ -1,0 +1,77 @@
+.horizCard {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  width: 75%;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+}
+.userPic {
+  height: 100%;
+  border: none;
+  padding: 0;
+  background-repeat: no-repeat;
+  flex: 1 1;
+
+}
+
+.userPic img {
+  object-fit: cover;
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: fill;
+
+}
+
+.cardContent {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  flex: 2 1;
+
+}
+
+.dev, .intro p {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-style: normal  ;
+  color: #828282;
+}
+.usrName {
+  font-weight: bold;
+  font-size: 24px;
+
+}
+
+.usrDsb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.usrContact {
+  display: flex;
+  flex-direction: column;
+}
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContent span {
+  margin-right: 10px;
+  justify-content: center;
+
+}
+
+
+
